@@ -1,0 +1,82 @@
+{
+    "twitchID": {
+        "name": "League of Legends",
+        "id": "295590"
+    },
+    "twitchID": {    
+        "name": "Call of Duty: Warzone",
+        "id": "464426"
+    },
+    "twitchID": {
+        "name": "VALORANT",
+        "id": "121617"
+    },
+    "twitchID": {        
+        "name": "Dota 2",
+        "id": "116088"
+    },
+    "twitchID": {
+        "name": "Teamfight Tactics",
+        "id": "118849"
+    },
+    "twitchID": {
+        "name": "PLAYERUNKNOWN'S BATTLEGROUNDS",
+        "id": "273195"
+    },
+    "twitchID": {     
+        "name": "Among Us",
+        "id": "319965"
+    },
+    "twitchID": {
+        "name": "Genshin Impact",
+        "id": "135305"
+    },
+    "twitchID":    {       
+        "name": "Call of Duty: Modern Warfare",
+        "id": "273486"
+    },
+    "twitchID": {
+        "name": "Lost Ark",
+        "id": "747108"
+    },
+    "twitchID": {
+        "name": "Apex Legends",
+        "id": "267128"
+    },
+    "twitchID": {
+        "name": "Honkai: Star Rail",
+        "id": "314852"
+    },
+    "twitchID": {
+        "name": "World of Warships",
+        "id": "461764"
+    },
+    "twitchID": {
+        "name": "World of Tanks",
+        "id": "742409"
+    },
+    "twitchID": {
+        "name": "Tom Clancy's Rainbow Six Siege",
+        "id": "762836"
+    },
+    "twitchID": {
+        "name": "Overwatch 2",
+        "id": "128974"
+    },
+    "twitchID": {
+        "name": "War Thunder",
+        "id": "970338"
+    },
+    "twitchID": {
+        "name": "Halo Infinite",
+        "id": "614266"
+    },
+    "twitchID": {
+        "name": "Sea of Thieves",
+        "id": "101342"
+    },
+    "twitchID": {
+        "name": "Hunt: Showdown",
+        "id": "452439"
+    }
+}

@@ -1,0 +1,1 @@
+docker run --gpus device=$1 --rm --volume=$2:/app/images easyocr:latest

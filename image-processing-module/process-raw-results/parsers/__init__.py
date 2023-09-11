@@ -1,0 +1,3 @@
+from parsers.easyocr_parser import EasyOCRParser
+from parsers.paddleocr_parser import PaddleOCRParser
+from parsers.pytesseract_parser import PytesseractParser
