@@ -4,6 +4,7 @@ import re
 from frame_processing import pre_process_image, process_image
 from config import extra_areas
 
+
 def get_extra_areas(game_id):
     return extra_areas.get(game_id, {})
 

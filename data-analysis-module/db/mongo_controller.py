@@ -232,8 +232,8 @@ class MongoController(DBController):
 
     
     def store_shared_anomaly(self, general_info, detailed_info):
-        _id = self.mongo_client.processed.shared_anomaly.insert_one(general_info)        
-        self.mongo_client.processed.shared_anomaly_details.insert_one({"shared_anomaly": str(_id.inserted_id), **detailed_info})
+        _id = self.mongo_client.shared_anomalies.shared_anomaly.insert_one(general_info)        
+        self.mongo_client.shared_anomalies.shared_anomaly_details.insert_one({"shared_anomaly": str(_id.inserted_id), **detailed_info})
 
    
 

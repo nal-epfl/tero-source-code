@@ -60,7 +60,6 @@ class ClusterDetection:
 
 
     def get_to_process(self):
-        # return [json.loads(x.decode("utf8")) for x in self.cache.smembers("new_to_cluster")]
         return [json.loads(x.decode("utf8")) for x in self.cache.spop("new_to_cluster", count=self.cache.scard("new_to_cluster"))]
 
 

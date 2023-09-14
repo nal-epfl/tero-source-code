@@ -17,4 +17,4 @@ RUN cd /root/.paddleocr/2.4/ocr/cls && tar xf ch_ppocr_mobile_v2.0_cls_infer.tar
 
 WORKDIR /home
 
-ENTRYPOINT ["python3", "run_paddleocr_local.py"]
+ENTRYPOINT ["python3", "run_paddleocr.py"]

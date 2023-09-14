@@ -278,7 +278,6 @@ class ResultsGrouper:
     
 
     def get_to_process(self):
-        # log_entries = [json.loads(x.decode("utf8")) for x in self.cache.smembers("new_to_group")]
         log_entries = [json.loads(x.decode("utf8")) for x in self.cache.spop("new_to_group", count=self.cache.scard("new_to_group"))]
         
         entries_user_game = {}
