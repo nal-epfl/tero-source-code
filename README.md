@@ -1,4 +1,4 @@
-# Tero dataset
+# Tero source code
 
 ### Configuration parameters common to all modules
 1. __safety_factor__: Percentage of the rate limit to use before waiting for next renewal.
@@ -10,3 +10,4 @@
 
 
 ### Citation
+Alvarez, Catalina, and Katerina Argyraki. "Using Gaming Footage as a source of Internet latency information." Proceedings of the 2023 ACM on Internet Measurement Conference. 2023.
