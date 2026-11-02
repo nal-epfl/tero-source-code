@@ -1,0 +1,1 @@
+docker run --gpus device=$1 --rm --volume=/media/ripe2/confirm_values:/home/images paddle-confirm-batch:latest

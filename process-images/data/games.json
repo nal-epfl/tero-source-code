@@ -1,0 +1,50 @@
+{
+    "data": [
+         {
+            "id": "295590",
+            "name": "League of Legends",
+            "short": "lol",
+            "areas": {
+                "0": ["0","1"]
+            }
+        },
+        {
+            "id": "116088",
+            "name": "Dota 2",
+            "short": "dota"
+        },
+        {
+            "id": "135305",
+            "name": "Genshin Impact",
+            "short": "genshin"
+        },
+        {
+            "id": "118849",
+            "name": "Teamfight Tactics",
+            "short": "tft",
+            "areas": {
+                "0": ["0", "1"]
+            }
+        },
+        {
+            "id": "273195",
+            "name": "PLAYERUNKNOWN'S BATTLEGROUNDS",
+            "short": "pubg"
+        },
+        {
+            "id": "464426",
+            "name": "Call of Duty: Warzone",
+            "short": "call_of_duty"
+        },
+        {
+            "id": "273486",
+            "name": "Call of Duty: Modern Warfare",
+            "short": "call_of_duty"
+        },
+        {
+            "id": "747108",
+            "name": "Lost Ark",
+            "short": "lost_ark"
+        }
+    ]    
+}

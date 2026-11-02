@@ -1,0 +1,12 @@
+__pycache__/
+logs/
+results/
+venv/
+.env
+imgs/
+to_process/
+scripts/
+*.md
+kubectl
+kubectl.sha256
+.vscode/

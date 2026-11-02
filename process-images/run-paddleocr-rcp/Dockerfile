@@ -1,0 +1,32 @@
+FROM paddleocr-model:latest
+
+#####################################
+# RCP CaaS requirement (Storage)
+#####################################
+# Create your user inside the container.
+# This block is needed to correctly map
+# your EPFL user id inside the container.
+# Without this mapping, you are not able
+# to access files from the external storage.
+ARG LDAP_USERNAME
+ARG LDAP_UID
+ARG LDAP_GROUPNAME
+ARG LDAP_GID
+RUN groupadd ${LDAP_GROUPNAME} --gid ${LDAP_GID}
+RUN useradd -m -s /bin/bash -g ${LDAP_GROUPNAME} -u ${LDAP_UID} ${LDAP_USERNAME}
+#####################################
+
+# Copy your code inside the container
+RUN mkdir -p /home/${LDAP_USERNAME}
+# Set your user as owner of the new copied files
+RUN chown -R ${LDAP_USERNAME}:${LDAP_GROUPNAME} /home/${LDAP_USERNAME}
+RUN chown -R ${LDAP_USERNAME}:${LDAP_GROUPNAME} /home/${LDAP_USERNAME}
+RUN chown -R ${LDAP_USERNAME}:${LDAP_GROUPNAME} /root
+
+COPY run_paddleocr.py /home/${LDAP_USERNAME}/run_paddleocr.py
+
+# Set the working directory in your user's home
+WORKDIR /home/${LDAP_USERNAME}
+USER ${LDAP_USERNAME}
+
+ENTRYPOINT ["python3", "run_paddleocr.py"]

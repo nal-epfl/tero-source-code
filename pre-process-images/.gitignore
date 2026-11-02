@@ -1,0 +1,8 @@
+*.zip
+__pycache__/
+.env
+logs/
+data/games.json
+already_processed.txt
+*.json
+venv/
